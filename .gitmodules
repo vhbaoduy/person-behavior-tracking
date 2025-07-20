@@ -1,0 +1,3 @@
+[submodule "MOTIP"]
+	path = MOTIP
+	url = https://github.com/MCG-NJU/MOTIP.git
