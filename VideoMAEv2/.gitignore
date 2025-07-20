@@ -145,4 +145,5 @@ cython_debug/
 # others
 work_dir/checkpoint-*/
 vit_b_k710_dl_from_giant.pth
-tracking_data/*.zip
+tracking_dataset/*.zip
+tracking_dataset/dance
