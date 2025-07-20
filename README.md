@@ -1,5 +1,21 @@
 # Multi-Person Behavior Tracking
+
+![FullPipeline](images/pipeline.jpg "Pipeline")
+
+
+This diagram illustrates a multi-stage Multi-Person Behavior Tracking workflow, combining Multi-Object Tracking (MOT) with Action Recognition.
+
+**Multi-Object Tracking (MOT) with MOTIP**
+- The process begins with the MOTIP module.
+- For each video frame (from Frame t - T to Frame t), MOTIP performs "Tracking."
+- The output of the tracking stage for each frame is a list of detected persons, each identified by a unique ID and their corresponding bounding Box (location/size). This implies MOTIP maintains consistent IDs for individuals across consecutive frames.
+
+**Individual Person Video Extraction**: Based on the tracking results (Person ID, Box), individual video segments are extracted for each tracked person.
+
+**Action Recognition with VideoMAE-v2**: The extracted "Person N Video" streams are then fed into the VideoMAE-v2 module.
+
 ## MOT with MOTIP
+
 We use MOTIP to run video on DanceTrack and SportsMOT
 
 [DanceTrack](demo/motip/dancetrack.mp4 "Click to watch")
