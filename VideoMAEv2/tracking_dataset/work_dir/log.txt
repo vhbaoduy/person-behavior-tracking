@@ -1,0 +1,8 @@
+{"Final top-1": 49.36708860759494, "Final Top-5": 100.0}
+{"Final top-1": 49.36708860759494, "Final Top-5": 100.0}
+{"Final top-1": 49.36708860759494, "Final Top-5": 100.0}
+{"Final top-1": 10.0, "Final Top-5": 70.0}
+{"Final top-1": 10.0, "Final Top-5": 70.0}
+{"Final top-1": 49.36708860759494, "Final Top-5": 100.0}
+{"Final top-1": 49.36708860759494, "Final Top-5": 100.0}
+{"Final top-1": 10.0, "Final Top-5": 70.0}
